@@ -15,8 +15,7 @@ get '/:airport' do
 	@array << json["weather"]["weather"]
 	@array << json["weather"]["temp"]
 	@array << json["status"]["reason"]
-	# @array.each {|x| print x }
-	@array
+	erb :airport
 end
 
 
@@ -38,3 +37,4 @@ end
 # puts lax_json["weather"]["temp"]
 # puts lax_json["delay"]
 # puts lax_json["status"]["reason"]
+
