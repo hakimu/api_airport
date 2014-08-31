@@ -1,5 +1,6 @@
 require 'net/http'
 require 'json'
+require 'puma'
 require 'sinatra'
 require 'newrelic_rpm'
 

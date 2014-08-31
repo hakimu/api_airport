@@ -586,3 +586,378 @@
 [08/15/14 23:44:37 -0700 hakimu-mbp (27657)] INFO : Installing Rack::Builder middleware instrumentation
 [08/15/14 23:44:37 -0700 hakimu-mbp (27657)] INFO : Finished instrumentation
 [08/15/14 23:44:37 -0700 hakimu-mbp (27657)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:17:31 -0700 hakimu-mbp (27757)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:17:31 -0700 hakimu-mbp (27757)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:17:31 -0700 hakimu-mbp (27757)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:17:31 -0700 hakimu-mbp (27757)] INFO : Environment: development
+[08/16/14 00:17:31 -0700 hakimu-mbp (27757)] INFO : Dispatcher: mongrel
+[08/16/14 00:17:31 -0700 hakimu-mbp (27757)] INFO : Application: Airport_API (Development)
+[08/16/14 00:17:31 -0700 hakimu-mbp (27757)] INFO : Installing Net instrumentation
+[08/16/14 00:17:31 -0700 hakimu-mbp (27757)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:17:31 -0700 hakimu-mbp (27757)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:17:31 -0700 hakimu-mbp (27757)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:17:31 -0700 hakimu-mbp (27757)] INFO : Finished instrumentation
+[08/16/14 00:17:31 -0700 hakimu-mbp (27757)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:19:06 -0700 hakimu-mbp (27763)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:19:06 -0700 hakimu-mbp (27763)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:19:06 -0700 hakimu-mbp (27763)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:19:06 -0700 hakimu-mbp (27763)] INFO : Environment: development
+[08/16/14 00:19:06 -0700 hakimu-mbp (27763)] INFO : Dispatcher: mongrel
+[08/16/14 00:19:06 -0700 hakimu-mbp (27763)] INFO : Application: Airport_API (Development)
+[08/16/14 00:19:06 -0700 hakimu-mbp (27763)] INFO : Installing Net instrumentation
+[08/16/14 00:19:06 -0700 hakimu-mbp (27763)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:19:06 -0700 hakimu-mbp (27763)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:19:06 -0700 hakimu-mbp (27763)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:19:06 -0700 hakimu-mbp (27763)] INFO : Finished instrumentation
+[08/16/14 00:19:06 -0700 hakimu-mbp (27763)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:21:06 -0700 hakimu-mbp (27768)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:21:06 -0700 hakimu-mbp (27768)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:21:06 -0700 hakimu-mbp (27768)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:21:06 -0700 hakimu-mbp (27768)] INFO : Environment: development
+[08/16/14 00:21:06 -0700 hakimu-mbp (27768)] INFO : Dispatcher: mongrel
+[08/16/14 00:21:06 -0700 hakimu-mbp (27768)] INFO : Application: Airport_API (Development)
+[08/16/14 00:21:06 -0700 hakimu-mbp (27768)] INFO : Installing Net instrumentation
+[08/16/14 00:21:06 -0700 hakimu-mbp (27768)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:21:06 -0700 hakimu-mbp (27768)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:21:06 -0700 hakimu-mbp (27768)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:21:06 -0700 hakimu-mbp (27768)] INFO : Finished instrumentation
+[08/16/14 00:21:06 -0700 hakimu-mbp (27768)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:21:16 -0700 hakimu-mbp (27773)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:21:16 -0700 hakimu-mbp (27773)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:21:16 -0700 hakimu-mbp (27773)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:21:16 -0700 hakimu-mbp (27773)] INFO : Environment: development
+[08/16/14 00:21:16 -0700 hakimu-mbp (27773)] INFO : Dispatcher: mongrel
+[08/16/14 00:21:16 -0700 hakimu-mbp (27773)] INFO : Application: Airport_API (Development)
+[08/16/14 00:21:16 -0700 hakimu-mbp (27773)] INFO : Installing Net instrumentation
+[08/16/14 00:21:16 -0700 hakimu-mbp (27773)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:21:16 -0700 hakimu-mbp (27773)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:21:16 -0700 hakimu-mbp (27773)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:21:16 -0700 hakimu-mbp (27773)] INFO : Finished instrumentation
+[08/16/14 00:21:16 -0700 hakimu-mbp (27773)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:21:17 -0700 hakimu-mbp (27777)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:21:17 -0700 hakimu-mbp (27777)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:21:17 -0700 hakimu-mbp (27777)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:21:17 -0700 hakimu-mbp (27777)] INFO : Environment: development
+[08/16/14 00:21:17 -0700 hakimu-mbp (27777)] INFO : Dispatcher: mongrel
+[08/16/14 00:21:17 -0700 hakimu-mbp (27777)] INFO : Application: Airport_API (Development)
+[08/16/14 00:21:17 -0700 hakimu-mbp (27777)] INFO : Installing Net instrumentation
+[08/16/14 00:21:17 -0700 hakimu-mbp (27777)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:21:17 -0700 hakimu-mbp (27777)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:21:17 -0700 hakimu-mbp (27777)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:21:17 -0700 hakimu-mbp (27777)] INFO : Finished instrumentation
+[08/16/14 00:21:17 -0700 hakimu-mbp (27777)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:22:31 -0700 hakimu-mbp (27782)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:22:31 -0700 hakimu-mbp (27782)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:22:31 -0700 hakimu-mbp (27782)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:22:31 -0700 hakimu-mbp (27782)] INFO : Environment: development
+[08/16/14 00:22:31 -0700 hakimu-mbp (27782)] INFO : Dispatcher: mongrel
+[08/16/14 00:22:31 -0700 hakimu-mbp (27782)] INFO : Application: Airport_API (Development)
+[08/16/14 00:22:31 -0700 hakimu-mbp (27782)] INFO : Installing Net instrumentation
+[08/16/14 00:22:31 -0700 hakimu-mbp (27782)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:22:31 -0700 hakimu-mbp (27782)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:22:31 -0700 hakimu-mbp (27782)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:22:31 -0700 hakimu-mbp (27782)] INFO : Finished instrumentation
+[08/16/14 00:22:31 -0700 hakimu-mbp (27782)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:22:35 -0700 hakimu-mbp (27786)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:22:35 -0700 hakimu-mbp (27786)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:22:35 -0700 hakimu-mbp (27786)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:22:35 -0700 hakimu-mbp (27786)] INFO : Environment: development
+[08/16/14 00:22:35 -0700 hakimu-mbp (27786)] INFO : Dispatcher: mongrel
+[08/16/14 00:22:35 -0700 hakimu-mbp (27786)] INFO : Application: Airport_API (Development)
+[08/16/14 00:22:35 -0700 hakimu-mbp (27786)] INFO : Installing Net instrumentation
+[08/16/14 00:22:35 -0700 hakimu-mbp (27786)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:22:35 -0700 hakimu-mbp (27786)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:22:35 -0700 hakimu-mbp (27786)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:22:35 -0700 hakimu-mbp (27786)] INFO : Finished instrumentation
+[08/16/14 00:22:35 -0700 hakimu-mbp (27786)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:22:58 -0700 hakimu-mbp (27793)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:22:58 -0700 hakimu-mbp (27793)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:22:58 -0700 hakimu-mbp (27793)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:22:58 -0700 hakimu-mbp (27793)] INFO : Environment: development
+[08/16/14 00:22:58 -0700 hakimu-mbp (27793)] INFO : Dispatcher: mongrel
+[08/16/14 00:22:58 -0700 hakimu-mbp (27793)] INFO : Application: Airport_API (Development)
+[08/16/14 00:22:58 -0700 hakimu-mbp (27793)] INFO : Installing Net instrumentation
+[08/16/14 00:22:58 -0700 hakimu-mbp (27793)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:22:58 -0700 hakimu-mbp (27793)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:22:58 -0700 hakimu-mbp (27793)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:22:58 -0700 hakimu-mbp (27793)] INFO : Finished instrumentation
+[08/16/14 00:22:58 -0700 hakimu-mbp (27793)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:23:00 -0700 hakimu-mbp (27793)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3665134
+[08/16/14 00:23:02 -0700 hakimu-mbp (27797)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:23:02 -0700 hakimu-mbp (27797)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:23:02 -0700 hakimu-mbp (27797)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:23:02 -0700 hakimu-mbp (27797)] INFO : Environment: development
+[08/16/14 00:23:02 -0700 hakimu-mbp (27797)] INFO : Dispatcher: mongrel
+[08/16/14 00:23:02 -0700 hakimu-mbp (27797)] INFO : Application: Airport_API (Development)
+[08/16/14 00:23:02 -0700 hakimu-mbp (27797)] INFO : Installing Net instrumentation
+[08/16/14 00:23:02 -0700 hakimu-mbp (27797)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:23:02 -0700 hakimu-mbp (27797)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:23:02 -0700 hakimu-mbp (27797)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:23:02 -0700 hakimu-mbp (27797)] INFO : Finished instrumentation
+[08/16/14 00:23:02 -0700 hakimu-mbp (27797)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:23:31 -0700 hakimu-mbp (27801)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:23:31 -0700 hakimu-mbp (27801)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:23:31 -0700 hakimu-mbp (27801)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:23:31 -0700 hakimu-mbp (27801)] INFO : Environment: development
+[08/16/14 00:23:31 -0700 hakimu-mbp (27801)] INFO : Dispatcher: mongrel
+[08/16/14 00:23:31 -0700 hakimu-mbp (27801)] INFO : Application: Airport_API (Development)
+[08/16/14 00:23:31 -0700 hakimu-mbp (27801)] INFO : Installing Net instrumentation
+[08/16/14 00:23:31 -0700 hakimu-mbp (27801)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:23:31 -0700 hakimu-mbp (27801)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:23:31 -0700 hakimu-mbp (27801)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:23:31 -0700 hakimu-mbp (27801)] INFO : Finished instrumentation
+[08/16/14 00:23:31 -0700 hakimu-mbp (27801)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:23:31 -0700 hakimu-mbp (27805)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:23:31 -0700 hakimu-mbp (27805)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:23:31 -0700 hakimu-mbp (27805)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:23:31 -0700 hakimu-mbp (27805)] INFO : Environment: development
+[08/16/14 00:23:31 -0700 hakimu-mbp (27805)] INFO : Dispatcher: mongrel
+[08/16/14 00:23:31 -0700 hakimu-mbp (27805)] INFO : Application: Airport_API (Development)
+[08/16/14 00:23:31 -0700 hakimu-mbp (27805)] INFO : Installing Net instrumentation
+[08/16/14 00:23:31 -0700 hakimu-mbp (27805)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:23:31 -0700 hakimu-mbp (27805)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:23:31 -0700 hakimu-mbp (27805)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:23:31 -0700 hakimu-mbp (27805)] INFO : Finished instrumentation
+[08/16/14 00:23:31 -0700 hakimu-mbp (27805)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:23:47 -0700 hakimu-mbp (27809)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:23:47 -0700 hakimu-mbp (27809)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:23:47 -0700 hakimu-mbp (27809)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:23:47 -0700 hakimu-mbp (27809)] INFO : Environment: development
+[08/16/14 00:23:47 -0700 hakimu-mbp (27809)] INFO : Dispatcher: mongrel
+[08/16/14 00:23:47 -0700 hakimu-mbp (27809)] INFO : Application: Airport_API (Development)
+[08/16/14 00:23:47 -0700 hakimu-mbp (27809)] INFO : Installing Net instrumentation
+[08/16/14 00:23:47 -0700 hakimu-mbp (27809)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:23:47 -0700 hakimu-mbp (27809)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:23:47 -0700 hakimu-mbp (27809)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:23:47 -0700 hakimu-mbp (27809)] INFO : Finished instrumentation
+[08/16/14 00:23:47 -0700 hakimu-mbp (27809)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:24:24 -0700 hakimu-mbp (27813)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:24:24 -0700 hakimu-mbp (27813)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:24:24 -0700 hakimu-mbp (27813)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:24:24 -0700 hakimu-mbp (27813)] INFO : Environment: development
+[08/16/14 00:24:24 -0700 hakimu-mbp (27813)] INFO : Dispatcher: mongrel
+[08/16/14 00:24:24 -0700 hakimu-mbp (27813)] INFO : Application: Airport_API (Development)
+[08/16/14 00:24:24 -0700 hakimu-mbp (27813)] INFO : Installing Net instrumentation
+[08/16/14 00:24:24 -0700 hakimu-mbp (27813)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:24:24 -0700 hakimu-mbp (27813)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:24:24 -0700 hakimu-mbp (27813)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:24:24 -0700 hakimu-mbp (27813)] INFO : Finished instrumentation
+[08/16/14 00:24:24 -0700 hakimu-mbp (27813)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:29:07 -0700 hakimu-mbp (27825)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:29:07 -0700 hakimu-mbp (27825)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:29:07 -0700 hakimu-mbp (27825)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:29:07 -0700 hakimu-mbp (27825)] INFO : Environment: development
+[08/16/14 00:29:07 -0700 hakimu-mbp (27825)] INFO : Dispatcher: mongrel
+[08/16/14 00:29:07 -0700 hakimu-mbp (27825)] INFO : Application: Airport_API (Development)
+[08/16/14 00:29:07 -0700 hakimu-mbp (27825)] INFO : Installing Net instrumentation
+[08/16/14 00:29:07 -0700 hakimu-mbp (27825)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:29:07 -0700 hakimu-mbp (27825)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:29:07 -0700 hakimu-mbp (27825)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:29:07 -0700 hakimu-mbp (27825)] INFO : Finished instrumentation
+[08/16/14 00:29:07 -0700 hakimu-mbp (27825)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:29:13 -0700 hakimu-mbp (27829)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:29:13 -0700 hakimu-mbp (27829)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:29:13 -0700 hakimu-mbp (27829)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:29:13 -0700 hakimu-mbp (27829)] INFO : Environment: development
+[08/16/14 00:29:13 -0700 hakimu-mbp (27829)] INFO : Dispatcher: mongrel
+[08/16/14 00:29:13 -0700 hakimu-mbp (27829)] INFO : Application: Airport_API (Development)
+[08/16/14 00:29:13 -0700 hakimu-mbp (27829)] INFO : Installing Net instrumentation
+[08/16/14 00:29:13 -0700 hakimu-mbp (27829)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:29:13 -0700 hakimu-mbp (27829)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:29:13 -0700 hakimu-mbp (27829)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:29:13 -0700 hakimu-mbp (27829)] INFO : Finished instrumentation
+[08/16/14 00:29:13 -0700 hakimu-mbp (27829)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:29:25 -0700 hakimu-mbp (27833)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:29:25 -0700 hakimu-mbp (27833)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:29:25 -0700 hakimu-mbp (27833)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:29:25 -0700 hakimu-mbp (27833)] INFO : Environment: development
+[08/16/14 00:29:25 -0700 hakimu-mbp (27833)] INFO : Dispatcher: mongrel
+[08/16/14 00:29:25 -0700 hakimu-mbp (27833)] INFO : Application: Airport_API (Development)
+[08/16/14 00:29:25 -0700 hakimu-mbp (27833)] INFO : Installing Net instrumentation
+[08/16/14 00:29:25 -0700 hakimu-mbp (27833)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:29:25 -0700 hakimu-mbp (27833)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:29:25 -0700 hakimu-mbp (27833)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:29:25 -0700 hakimu-mbp (27833)] INFO : Finished instrumentation
+[08/16/14 00:29:25 -0700 hakimu-mbp (27833)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:29:41 -0700 hakimu-mbp (27838)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:29:41 -0700 hakimu-mbp (27838)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:29:41 -0700 hakimu-mbp (27838)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:29:41 -0700 hakimu-mbp (27838)] INFO : Environment: development
+[08/16/14 00:29:41 -0700 hakimu-mbp (27838)] INFO : Dispatcher: mongrel
+[08/16/14 00:29:41 -0700 hakimu-mbp (27838)] INFO : Application: Airport_API (Development)
+[08/16/14 00:29:41 -0700 hakimu-mbp (27838)] INFO : Installing Net instrumentation
+[08/16/14 00:29:41 -0700 hakimu-mbp (27838)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:29:41 -0700 hakimu-mbp (27838)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:29:41 -0700 hakimu-mbp (27838)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:29:41 -0700 hakimu-mbp (27838)] INFO : Finished instrumentation
+[08/16/14 00:29:41 -0700 hakimu-mbp (27838)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:31:36 -0700 hakimu-mbp (27847)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:31:36 -0700 hakimu-mbp (27847)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:31:36 -0700 hakimu-mbp (27847)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:31:36 -0700 hakimu-mbp (27847)] INFO : Environment: development
+[08/16/14 00:31:36 -0700 hakimu-mbp (27847)] INFO : Dispatcher: mongrel
+[08/16/14 00:31:36 -0700 hakimu-mbp (27847)] INFO : Application: Airport_API (Development)
+[08/16/14 00:31:36 -0700 hakimu-mbp (27847)] INFO : Installing Net instrumentation
+[08/16/14 00:31:36 -0700 hakimu-mbp (27847)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:31:36 -0700 hakimu-mbp (27847)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:31:36 -0700 hakimu-mbp (27847)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:31:36 -0700 hakimu-mbp (27847)] INFO : Finished instrumentation
+[08/16/14 00:31:36 -0700 hakimu-mbp (27847)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:32:04 -0700 hakimu-mbp (27855)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:32:04 -0700 hakimu-mbp (27855)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:32:04 -0700 hakimu-mbp (27855)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:32:04 -0700 hakimu-mbp (27855)] INFO : Environment: development
+[08/16/14 00:32:04 -0700 hakimu-mbp (27855)] INFO : Dispatcher: mongrel
+[08/16/14 00:32:04 -0700 hakimu-mbp (27855)] INFO : Application: Airport_API (Development)
+[08/16/14 00:32:04 -0700 hakimu-mbp (27855)] INFO : Installing Net instrumentation
+[08/16/14 00:32:04 -0700 hakimu-mbp (27855)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:32:04 -0700 hakimu-mbp (27855)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:32:04 -0700 hakimu-mbp (27855)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:32:04 -0700 hakimu-mbp (27855)] INFO : Finished instrumentation
+[08/16/14 00:32:04 -0700 hakimu-mbp (27855)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:32:08 -0700 hakimu-mbp (27855)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3665134
+[08/16/14 00:32:27 -0700 hakimu-mbp (27859)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:32:27 -0700 hakimu-mbp (27859)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:32:27 -0700 hakimu-mbp (27859)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:32:27 -0700 hakimu-mbp (27859)] INFO : Environment: development
+[08/16/14 00:32:27 -0700 hakimu-mbp (27859)] INFO : Dispatcher: mongrel
+[08/16/14 00:32:27 -0700 hakimu-mbp (27859)] INFO : Application: Airport_API (Development)
+[08/16/14 00:32:27 -0700 hakimu-mbp (27859)] INFO : Installing Net instrumentation
+[08/16/14 00:32:27 -0700 hakimu-mbp (27859)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:32:27 -0700 hakimu-mbp (27859)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:32:27 -0700 hakimu-mbp (27859)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:32:27 -0700 hakimu-mbp (27859)] INFO : Finished instrumentation
+[08/16/14 00:32:27 -0700 hakimu-mbp (27859)] INFO : Doing deferred dependency-detection before Rack startup
+[08/16/14 00:32:36 -0700 hakimu-mbp (27863)] INFO : Starting the New Relic agent in "development" environment.
+[08/16/14 00:32:36 -0700 hakimu-mbp (27863)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/16/14 00:32:36 -0700 hakimu-mbp (27863)] INFO : Reading configuration from newrelic.yml
+[08/16/14 00:32:36 -0700 hakimu-mbp (27863)] INFO : Environment: development
+[08/16/14 00:32:36 -0700 hakimu-mbp (27863)] INFO : Dispatcher: mongrel
+[08/16/14 00:32:36 -0700 hakimu-mbp (27863)] INFO : Application: Airport_API (Development)
+[08/16/14 00:32:36 -0700 hakimu-mbp (27863)] INFO : Installing Net instrumentation
+[08/16/14 00:32:36 -0700 hakimu-mbp (27863)] INFO : Installing Sinatra instrumentation
+[08/16/14 00:32:36 -0700 hakimu-mbp (27863)] INFO : Installing deferred Rack instrumentation
+[08/16/14 00:32:36 -0700 hakimu-mbp (27863)] INFO : Installing Rack::Builder middleware instrumentation
+[08/16/14 00:32:36 -0700 hakimu-mbp (27863)] INFO : Finished instrumentation
+[08/16/14 00:32:36 -0700 hakimu-mbp (27863)] INFO : Doing deferred dependency-detection before Rack startup
+[08/31/14 00:43:43 -0700 hakimu-mbp (37078)] INFO : Starting the New Relic agent in "development" environment.
+[08/31/14 00:43:43 -0700 hakimu-mbp (37078)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/31/14 00:43:43 -0700 hakimu-mbp (37078)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/api_airport)
+[08/31/14 00:43:43 -0700 hakimu-mbp (37078)] INFO : Environment: development
+[08/31/14 00:43:43 -0700 hakimu-mbp (37078)] INFO : No known dispatcher detected.
+[08/31/14 00:43:43 -0700 hakimu-mbp (37078)] INFO : Application: Airport_API (Development)
+[08/31/14 00:43:43 -0700 hakimu-mbp (37078)] INFO : Installing Net instrumentation
+[08/31/14 00:43:43 -0700 hakimu-mbp (37078)] INFO : Installing Sinatra instrumentation
+[08/31/14 00:43:43 -0700 hakimu-mbp (37078)] INFO : Installing deferred Rack instrumentation
+[08/31/14 00:43:43 -0700 hakimu-mbp (37078)] INFO : Installing Rack::Builder middleware instrumentation
+[08/31/14 00:43:43 -0700 hakimu-mbp (37078)] INFO : Finished instrumentation
+[08/31/14 00:43:44 -0700 hakimu-mbp (37078)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3665134
+[08/31/14 00:46:33 -0700 hakimu-mbp (37078)] INFO : Doing deferred dependency-detection before Rack startup
+[08/31/14 00:49:51 -0700 hakimu-mbp (37283)] INFO : Starting the New Relic agent in "development" environment.
+[08/31/14 00:49:51 -0700 hakimu-mbp (37283)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/31/14 00:49:51 -0700 hakimu-mbp (37283)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/api_airport)
+[08/31/14 00:49:51 -0700 hakimu-mbp (37283)] INFO : Environment: development
+[08/31/14 00:49:51 -0700 hakimu-mbp (37283)] INFO : No known dispatcher detected.
+[08/31/14 00:49:51 -0700 hakimu-mbp (37283)] INFO : Application: Airport_API (Development)
+[08/31/14 00:49:51 -0700 hakimu-mbp (37283)] INFO : Installing Net instrumentation
+[08/31/14 00:49:51 -0700 hakimu-mbp (37283)] INFO : Installing Sinatra instrumentation
+[08/31/14 00:49:51 -0700 hakimu-mbp (37283)] INFO : Installing deferred Rack instrumentation
+[08/31/14 00:49:51 -0700 hakimu-mbp (37283)] INFO : Installing Rack::Builder middleware instrumentation
+[08/31/14 00:49:51 -0700 hakimu-mbp (37283)] INFO : Finished instrumentation
+[08/31/14 00:49:52 -0700 hakimu-mbp (37283)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3665134
+[08/31/14 01:06:49 -0700 hakimu-mbp (37417)] INFO : Starting the New Relic agent in "development" environment.
+[08/31/14 01:06:49 -0700 hakimu-mbp (37417)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/31/14 01:06:49 -0700 hakimu-mbp (37417)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/api_airport)
+[08/31/14 01:06:49 -0700 hakimu-mbp (37417)] INFO : Environment: development
+[08/31/14 01:06:49 -0700 hakimu-mbp (37417)] INFO : No known dispatcher detected.
+[08/31/14 01:06:49 -0700 hakimu-mbp (37417)] INFO : Application: Airport_API (Development)
+[08/31/14 01:06:49 -0700 hakimu-mbp (37417)] INFO : Installing Net instrumentation
+[08/31/14 01:06:49 -0700 hakimu-mbp (37417)] INFO : Installing Sinatra instrumentation
+[08/31/14 01:06:49 -0700 hakimu-mbp (37417)] INFO : Installing deferred Rack instrumentation
+[08/31/14 01:06:49 -0700 hakimu-mbp (37417)] INFO : Installing Rack::Builder middleware instrumentation
+[08/31/14 01:06:49 -0700 hakimu-mbp (37417)] INFO : Finished instrumentation
+[08/31/14 01:06:50 -0700 hakimu-mbp (37417)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3665134
+[08/31/14 01:07:15 -0700 hakimu-mbp (37424)] INFO : Starting the New Relic agent in "development" environment.
+[08/31/14 01:07:15 -0700 hakimu-mbp (37424)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/31/14 01:07:15 -0700 hakimu-mbp (37424)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/api_airport)
+[08/31/14 01:07:15 -0700 hakimu-mbp (37424)] INFO : Environment: development
+[08/31/14 01:07:15 -0700 hakimu-mbp (37424)] INFO : No known dispatcher detected.
+[08/31/14 01:07:15 -0700 hakimu-mbp (37424)] INFO : Application: Airport_API (Development)
+[08/31/14 01:07:15 -0700 hakimu-mbp (37424)] INFO : Installing Net instrumentation
+[08/31/14 01:07:15 -0700 hakimu-mbp (37424)] INFO : Installing Sinatra instrumentation
+[08/31/14 01:07:15 -0700 hakimu-mbp (37424)] INFO : Installing deferred Rack instrumentation
+[08/31/14 01:07:15 -0700 hakimu-mbp (37424)] INFO : Installing Rack::Builder middleware instrumentation
+[08/31/14 01:07:15 -0700 hakimu-mbp (37424)] INFO : Finished instrumentation
+[08/31/14 01:07:16 -0700 hakimu-mbp (37424)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3665134
+[08/31/14 01:08:03 -0700 hakimu-mbp (37431)] INFO : Starting the New Relic agent in "development" environment.
+[08/31/14 01:08:03 -0700 hakimu-mbp (37431)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/31/14 01:08:03 -0700 hakimu-mbp (37431)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/api_airport)
+[08/31/14 01:08:03 -0700 hakimu-mbp (37431)] INFO : Environment: development
+[08/31/14 01:08:03 -0700 hakimu-mbp (37431)] INFO : No known dispatcher detected.
+[08/31/14 01:08:03 -0700 hakimu-mbp (37431)] INFO : Application: Airport_API (Development)
+[08/31/14 01:08:03 -0700 hakimu-mbp (37431)] INFO : Installing Net instrumentation
+[08/31/14 01:08:03 -0700 hakimu-mbp (37431)] INFO : Installing Sinatra instrumentation
+[08/31/14 01:08:03 -0700 hakimu-mbp (37431)] INFO : Installing deferred Rack instrumentation
+[08/31/14 01:08:03 -0700 hakimu-mbp (37431)] INFO : Installing Rack::Builder middleware instrumentation
+[08/31/14 01:08:03 -0700 hakimu-mbp (37431)] INFO : Finished instrumentation
+[08/31/14 01:08:03 -0700 hakimu-mbp (37431)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3665134
+[08/31/14 01:08:19 -0700 hakimu-mbp (37437)] INFO : Starting the New Relic agent in "development" environment.
+[08/31/14 01:08:19 -0700 hakimu-mbp (37437)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/31/14 01:08:19 -0700 hakimu-mbp (37437)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/api_airport)
+[08/31/14 01:08:19 -0700 hakimu-mbp (37437)] INFO : Environment: development
+[08/31/14 01:08:19 -0700 hakimu-mbp (37437)] INFO : No known dispatcher detected.
+[08/31/14 01:08:19 -0700 hakimu-mbp (37437)] INFO : Application: Airport_API (Development)
+[08/31/14 01:08:19 -0700 hakimu-mbp (37437)] INFO : Installing Net instrumentation
+[08/31/14 01:08:19 -0700 hakimu-mbp (37437)] INFO : Installing Sinatra instrumentation
+[08/31/14 01:08:19 -0700 hakimu-mbp (37437)] INFO : Installing deferred Rack instrumentation
+[08/31/14 01:08:19 -0700 hakimu-mbp (37437)] INFO : Installing Rack::Builder middleware instrumentation
+[08/31/14 01:08:19 -0700 hakimu-mbp (37437)] INFO : Finished instrumentation
+[08/31/14 01:08:20 -0700 hakimu-mbp (37437)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3665134
+[08/31/14 01:11:11 -0700 hakimu-mbp (37465)] INFO : Starting the New Relic agent in "development" environment.
+[08/31/14 01:11:11 -0700 hakimu-mbp (37465)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/31/14 01:11:11 -0700 hakimu-mbp (37465)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/api_airport)
+[08/31/14 01:11:11 -0700 hakimu-mbp (37465)] INFO : Environment: development
+[08/31/14 01:11:11 -0700 hakimu-mbp (37465)] INFO : No known dispatcher detected.
+[08/31/14 01:11:11 -0700 hakimu-mbp (37465)] INFO : Application: Airport_API (Development)
+[08/31/14 01:11:11 -0700 hakimu-mbp (37465)] INFO : Installing Net instrumentation
+[08/31/14 01:11:11 -0700 hakimu-mbp (37465)] INFO : Installing Sinatra instrumentation
+[08/31/14 01:11:11 -0700 hakimu-mbp (37465)] INFO : Installing deferred Rack instrumentation
+[08/31/14 01:11:11 -0700 hakimu-mbp (37465)] INFO : Installing Rack::Builder middleware instrumentation
+[08/31/14 01:11:11 -0700 hakimu-mbp (37465)] INFO : Finished instrumentation
+[08/31/14 01:11:12 -0700 hakimu-mbp (37465)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3665134
+[08/31/14 01:18:30 -0700 hakimu-mbp (37520)] INFO : Starting the New Relic agent in "development" environment.
+[08/31/14 01:18:30 -0700 hakimu-mbp (37520)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/31/14 01:18:30 -0700 hakimu-mbp (37520)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/api_airport)
+[08/31/14 01:18:30 -0700 hakimu-mbp (37520)] INFO : Environment: development
+[08/31/14 01:18:30 -0700 hakimu-mbp (37520)] INFO : No known dispatcher detected.
+[08/31/14 01:18:30 -0700 hakimu-mbp (37520)] INFO : Application: Airport_API (Development)
+[08/31/14 01:18:30 -0700 hakimu-mbp (37520)] INFO : Installing Net instrumentation
+[08/31/14 01:18:30 -0700 hakimu-mbp (37520)] INFO : Installing Sinatra instrumentation
+[08/31/14 01:18:30 -0700 hakimu-mbp (37520)] INFO : Installing deferred Rack instrumentation
+[08/31/14 01:18:30 -0700 hakimu-mbp (37520)] INFO : Installing Rack::Builder middleware instrumentation
+[08/31/14 01:18:30 -0700 hakimu-mbp (37520)] INFO : Finished instrumentation
+[08/31/14 01:18:31 -0700 hakimu-mbp (37520)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3665134
+[08/31/14 01:18:46 -0700 hakimu-mbp (37524)] INFO : Starting the New Relic agent in "development" environment.
+[08/31/14 01:18:46 -0700 hakimu-mbp (37524)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/31/14 01:18:46 -0700 hakimu-mbp (37524)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/api_airport)
+[08/31/14 01:18:46 -0700 hakimu-mbp (37524)] INFO : Environment: development
+[08/31/14 01:18:46 -0700 hakimu-mbp (37524)] INFO : No known dispatcher detected.
+[08/31/14 01:18:46 -0700 hakimu-mbp (37524)] INFO : Application: Airport_API (Development)
+[08/31/14 01:18:46 -0700 hakimu-mbp (37524)] INFO : Installing Net instrumentation
+[08/31/14 01:18:46 -0700 hakimu-mbp (37524)] INFO : Installing Sinatra instrumentation
+[08/31/14 01:18:46 -0700 hakimu-mbp (37524)] INFO : Installing deferred Rack instrumentation
+[08/31/14 01:18:46 -0700 hakimu-mbp (37524)] INFO : Installing Rack::Builder middleware instrumentation
+[08/31/14 01:18:46 -0700 hakimu-mbp (37524)] INFO : Finished instrumentation
+[08/31/14 01:18:47 -0700 hakimu-mbp (37524)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3665134
+[08/31/14 01:20:29 -0700 hakimu-mbp (37542)] INFO : Starting the New Relic agent in "development" environment.
+[08/31/14 01:20:29 -0700 hakimu-mbp (37542)] INFO : To prevent agent startup add a NEWRELIC_AGENT_ENABLED=false environment variable or modify the "development" section of your newrelic.yml.
+[08/31/14 01:20:29 -0700 hakimu-mbp (37542)] INFO : Reading configuration from newrelic.yml (/Users/hakimu/Documents/scribble/api_airport)
+[08/31/14 01:20:29 -0700 hakimu-mbp (37542)] INFO : Environment: development
+[08/31/14 01:20:29 -0700 hakimu-mbp (37542)] INFO : No known dispatcher detected.
+[08/31/14 01:20:29 -0700 hakimu-mbp (37542)] INFO : Application: Airport_API (Development)
+[08/31/14 01:20:29 -0700 hakimu-mbp (37542)] INFO : Installing Net instrumentation
+[08/31/14 01:20:29 -0700 hakimu-mbp (37542)] INFO : Installing Sinatra instrumentation
+[08/31/14 01:20:29 -0700 hakimu-mbp (37542)] INFO : Installing deferred Rack instrumentation
+[08/31/14 01:20:29 -0700 hakimu-mbp (37542)] INFO : Installing Rack::Builder middleware instrumentation
+[08/31/14 01:20:29 -0700 hakimu-mbp (37542)] INFO : Finished instrumentation
+[08/31/14 01:20:30 -0700 hakimu-mbp (37542)] INFO : Reporting to: https://rpm.newrelic.com/accounts/527930/applications/3665134
