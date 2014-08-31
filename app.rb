@@ -4,20 +4,23 @@ require 'puma'
 require 'sinatra'
 require 'newrelic_rpm'
 
-get '/' do
-	'This works'
+class App < Sinatra::Base
+	get '/' do
+		'This works'
+	end
+
+	get '/:airport' do
+		@array = []
+		uri = Net::HTTP.get("services.faa.gov", "/airport/status/#{params[:airport].upcase}?format=application/json")
+		json = JSON.parse(uri)
+		@array << json["name"]
+		@array << json["weather"]["weather"]
+		@array << json["weather"]["temp"]
+		@array << json["status"]["reason"]
+		erb :airport
+	end
 end
 
-get '/:airport' do
-	@array = []
-	uri = Net::HTTP.get("services.faa.gov", "/airport/status/#{params[:airport].upcase}?format=application/json")
-	json = JSON.parse(uri)
-	@array << json["name"]
-	@array << json["weather"]["weather"]
-	@array << json["weather"]["temp"]
-	@array << json["status"]["reason"]
-	erb :airport
-end
 
 
 
