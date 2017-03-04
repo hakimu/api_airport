@@ -1,0 +1,30 @@
+<html>
+<head>
+  <title>Airport API</title>
+</head>
+<body>
+  <form class="form-inline" action="/airport">
+    <div class="form-group">
+      <label for="airportCodeInput">Airport Code</label>
+      <input type="text" class="form-control" id="airportCodeInput" placeholder="Airport Code" name="airport_code">
+    </div>
+    <br />
+    <br />
+      <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+  <br >
+  <form class="form-inline" action="/airport">
+    <div class="form-group">
+    <label for="cityInput">City</label>
+    <select class="form-control">
+      <% @form_city.each do |city| %>
+      <option><%= strip_brackets_quotes(city) %></option>
+      <% end %>
+    </div>
+    </select>
+    <br />
+    <br />
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</body>
+</html>
