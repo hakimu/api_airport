@@ -4,13 +4,13 @@ require 'shotgun'
 require 'puma'
 require 'sinatra'
 require 'net/http'
-require 'newrelic_rpm'
 require 'dm-core'
 require 'dm-timestamps'
 require 'dm-validations'
 require 'dm-migrations'
 require 'dm-sqlite-adapter'
 require 'data_mapper'
+require 'newrelic_rpm'
 
 DataMapper.setup :default, "sqlite://#{Dir.pwd}/database.rb"
 
