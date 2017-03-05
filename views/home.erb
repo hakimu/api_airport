@@ -16,9 +16,9 @@
   <form class="form-inline" action="/airport">
     <div class="form-group">
     <label for="cityInput">City</label>
-    <select class="form-control">
-      <% @form_city.each do |city| %>
-      <option><%= strip_brackets_quotes(city) %></option>
+    <select class="form-control" name="airport_city">
+      <% @airports.each do |a| %>
+      <option><%= a.city %></option>
       <% end %>
     </div>
     </select>

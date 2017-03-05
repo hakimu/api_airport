@@ -1,20 +1,44 @@
 require_relative './lib/api_call'
-require_relative './db/datastore_hash'
+# require_relative './db/datastore_hash'
+require_relative './db/datamapper_db'
 require 'json'
 require 'shotgun'
 require 'puma'
 require 'sinatra'
 require 'net/http'
 require 'newrelic_rpm'
+require 'dm-core'
+require 'dm-timestamps'
+require 'dm-validations'
+require 'dm-migrations'
+require 'dm-sqlite-adapter'
+require 'data_mapper'
 
-helpers do
-	def strip_brackets_quotes(array)
-		array.join
-	end
+DataMapper.setup :default, "sqlite://#{Dir.pwd}/database.rb"
+
+class Airport
+  include DataMapper::Resource
+
+  property :id, Serial
+  property :code, String
+  property :name, String
+  property :city, String
+  property :state, String
+
 end
-  
+
+DataMapper.finalize.auto_upgrade!
+
+# configure :development do
+#   DataMapper.auto_upgrade!
+# end
+
 get '/' do
-	@form_city = Airport::FormAttributes.new.airport_city
+	@airports = Airport.all
+	puts @airports.class
+	puts "#{@airports}======="
+	puts "#{@airports.count}======="
+	# @form_city = Airport::FormAttributes.new.airport_city
 	erb :home
 end
 
@@ -25,35 +49,35 @@ get '/airport' do
 	erb :airport
 end
 
-get '/airport/:airport' do
-	@array = []
-	uri = Net::HTTP.get("services.faa.gov", "/airport/status/#{params[:airport].upcase}?format=application/json")
-	json = JSON.parse(uri)
-	@array << json["name"]
-	@array << json["weather"]["weather"]
-	@array << json["weather"]["temp"]
-	@array << json["status"]["reason"]
-	erb :airport
-end
+# get '/airport/:airport' do
+# 	@array = []
+# 	uri = Net::HTTP.get("services.faa.gov", "/airport/status/#{params[:airport].upcase}?format=application/json")
+# 	json = JSON.parse(uri)
+# 	@array << json["name"]
+# 	@array << json["weather"]["weather"]
+# 	@array << json["weather"]["temp"]
+# 	@array << json["status"]["reason"]
+# 	erb :airport
+# end
 
 
-get '/npr' do
-	# @empty_array = []
-	payload = URI("http://api.npr.org/query?id=10005&output=JSON&apiKey=MDE4NjA4OTI1MDE0MjcwOTI1MjdkMjA1OQ001")
-	# json_payload = JSON.parse(payload)
-	# @empty_array << json_payload.class
-	Net::HTTP.get(payload)
+# get '/npr' do
+# 	# @empty_array = []
+# 	payload = URI("http://api.npr.org/query?id=10005&output=JSON&apiKey=MDE4NjA4OTI1MDE0MjcwOTI1MjdkMjA1OQ001")
+# 	# json_payload = JSON.parse(payload)
+# 	# @empty_array << json_payload.class
+# 	Net::HTTP.get(payload)
 	
 
-end
+# end
 
-get '/yahoo' do
-	uri = RestClient.get 'http://yahoo.com'
-end
+# get '/yahoo' do
+# 	uri = RestClient.get 'http://yahoo.com'
+# end
 
-get '/test' do
-	'testing ignore'
-end
+# get '/test' do
+# 	'testing ignore'
+# end
 
 
 # pdx_uri = Net::HTTP.get('services.faa.gov','/airport/status/PDX?format=application/json')

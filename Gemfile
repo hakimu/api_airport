@@ -1,5 +1,12 @@
 source 'https://rubygems.org'
 
+gem 'sqlite3'
+gem 'dm-core'
+gem 'dm-timestamps'
+gem 'dm-validations'
+gem 'dm-migrations'
+gem 'dm-sqlite-adapter'
+gem 'data_mapper'
 gem 'puma'
 gem 'sinatra'
 gem 'shotgun'
