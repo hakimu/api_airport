@@ -12,7 +12,7 @@ class AirportAPI
 
 end
 
-# puts x = Airport.new("LAX").grab_url
+# puts x = AirportAPI.new("LAX").grab_url
 # puts x
 # puts x.methods
 # puts Net::HTTP.get("services.faa.gov", "/airport/status/#{@code.upcase}?format=application/json")
