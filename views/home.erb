@@ -18,9 +18,10 @@
     <label for="cityInput">City</label>
     <select class="form-control" id="city_select" name="airport_city">
       <% @airports.each do |a| %>
-      <option><%= a.city %></option>
+      <option value="<%= a.code %>"><%= a.city %></option>
       <% end %>
     </div>
+    <!-- <input type="hidden" name="code" value=<%= @airports.class %> -->
     </select>
     <br />
     <br />

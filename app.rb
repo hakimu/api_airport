@@ -37,8 +37,15 @@ get '/' do
 end
 
 get '/airport' do
-	code = params[:airport_code] 
+ #  puts "+++ Here are the params #{params} +++"
+	code = params["airport_city"]
+ #  puts "the info #{code}"
 	@data = AirportAPI.new(code).grab_url
 	erb :airport
+end
+
+get '/test' do
+  @airports = Airport.all
+  erb :"test.js"
 end
 
